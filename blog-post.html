@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisaLex || Blog Post Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+</head>
+<body>
+    <!-- Top Header Area Start Here -->
+    <section class="bg-bannerBg py-4">
+        <div class="container">
+            <div
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-offset="20"
+            data-aos-once="true"
+            class="flex flex-wrap justify-between lg:items-center lg:gap-0 gap-4">
+                <div class="flex gap-2 items-center">
+                    <svg width="19" height="22" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1 9.3767C1.01595 4.73463 4.83445 0.984278 9.52885 1.00005C14.2233 1.01582 18.0159 4.79174 17.9999 9.43381V9.529C17.9422 12.5465 16.2383 15.3355 14.1495 17.5154C12.9548 18.7421 11.6207 19.8281 10.1738 20.7518C9.78692 21.0827 9.21303 21.0827 8.82614 20.7518C6.66912 19.3635 4.77597 17.6107 3.23329 15.5735C1.85833 13.7971 1.07767 11.641 1 9.40525L1 9.3767Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="9.5" cy="9.5" r="2.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="font-Helvetical font-medium text-sm leading-6 text-textColor">123 Lorem Ipsum Legal Street, London, UK, SW1A 1AA</p> 
+                </div>
+                <div class="flex gap-2 items-center">
+                    <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.58342 1H16.3885C17.8023 1.01603 19.1479 1.62039 20.112 2.67232C21.076 3.72425 21.5744 5.13193 21.491 6.56751V13.4325C21.5744 14.8681 21.076 16.2758 20.112 17.3277C19.1479 18.3796 17.8023 18.984 16.3885 19H6.58342C3.5467 19 1.5 16.5019 1.5 13.4325V6.56751C1.5 3.49812 3.5467 1 6.58342 1Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.5 7L12.9757 10.5143C12.1195 11.1619 10.9193 11.1619 10.0631 10.5143L5.5 7" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                    <p class="font-Helvetical font-medium text-sm leading-6 text-textColor">info@demoworkpermit.com</p> 
+                </div>
+                <div class="flex gap-2 items-center">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21 11C21 16.5232 16.5232 21 11 21C5.47676 21 1 16.5232 1 11C1 5.47676 5.47676 1 11 1C16.5232 1 21 5.47676 21 11Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M14.71 14.1813L10.6343 11.7499V6.50992" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="font-Helvetical font-medium text-sm leading-6 text-textColor">Monday to Friday 10:00 AM - 7:00 PM</p> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top Header Area End Here -->
+
+    <!-- Header Area Start Here -->
+    <header class="">
+        <div class="container">
+            <nav class="py-6">
+                <div class="flex justify-between items-center">
+                    <a href="index.html">
+                        <img src="assets/img/logo.svg" alt="">
+                    </a>
+                    <!-- Menu button for mobile -->
+                    <div class="flex items-center lg:hidden">
+                        <button id="mobileMenuButton" class="focus:outline-none">
+                            <svg id="menuIcon" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="black">
+                                <path id="menuOpenIcon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                                <path id="menuCloseIcon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="lg:block hidden">
+                        <ul class="flex items-center gap-[42px] ">
+                            <li>
+                                <a href="index.html" class="font-Helvetical font-normal text-base leading-7 text-bannerBg">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html" class="font-Helvetical font-normal text-base leading-7 text-secondaryColor">About Us</a>
+                            </li>
+                            <li>
+                                <a href="services.html" class="font-Helvetical font-normal text-base leading-7 text-secondaryColor">Services</a>
+                            </li>
+                            <li>
+                                <a href="team.html" class="font-Helvetical font-normal text-base leading-7 text-secondaryColor">Team</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html" class="font-Helvetical font-normal text-base leading-7 text-secondaryColor">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="blog.html" class="font-Helvetical font-bold text-base leading-7 text-bannerBg">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lg:block hidden">
+                        <a href="contact.html" class="font-Helvetical font-bold text-base leading-7 text-bannerBg md:inline-block block py-2 px-6 rounded-r_100 bg-btnBg border border-btnBg transition ease-in-out duration-500 hover:bg-cardBg hover:border-borderColor hover:border-opacity-30 hover:transition hover:ease-in-out hover:duration-500">Contact Us</a>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu -->
+                <div id="mobileMenu" class="bg-white border border-primaryColor border-opacity-30 hidden m-5 transition-height transition-all duration-1000 ease-in-out overflow-hidden absolute inset-x-0 md:top-36 top-52 z-20">
+                    <div class="p-5">
+                        <ul class="dropdown flex flex-col gap-y-4">
+                            <li>
+                                <a href="index.html" class="font-Helvetical font-normal text-base leading-7 text-bannerBg">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html" class="font-Helvetical font-normal text-base leading-7 text-secondaryColor">About Us</a>
+                            </li>
+                            <li>
+                                <a href="services.html" class="font-Helvetical font-normal text-base leading-7 text-secondaryColor">Services</a>
+                            </li>
+                            <li>
+                                <a href="team.html" class="font-Helvetical font-normal text-base leading-7 text-secondaryColor">Team</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html" class="font-Helvetical font-normal text-base leading-7 text-secondaryColor">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="blog.html" class="font-Helvetical font-bold text-base leading-7 text-bannerBg">Blog</a>
+                            </li>
+                        </ul>
+                        <div class="mt-7 text-center">
+                            <a href="contact.html" class="block text-center font-Helvetical font-bold text-base leading-7 text-bannerBg md:inline-block py-2 px-6 rounded-r_100 bg-btnBg border border-btnBg transition ease-in-out duration-500 hover:bg-cardBg hover:border-borderColor hover:border-opacity-30 hover:transition hover:ease-in-out hover:duration-500">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Header Area End Here -->
+
+    <!-- Banner Area Start Here -->
+    <section class="lg:mt-[70px]">
+        <div class="container">
+            <div class="flex lg:flex-row flex-col justify-between gap-[30px]">
+                <img
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-aos-offset="20"
+                data-aos-once="true"
+                src="assets/img/blogPage/blogpost-banner.png" alt="">
+                <div
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-offset="20"
+                data-aos-once="true"
+                class="lg:w-570 w-full">
+                    <h4 class="flex items-center gap-2.5">
+                        <span class="font-Helvetical font-normal text-base leading-7 text-secondaryColor">26 Mar 2024</span>
+                        <span class="inline-block h-[1px] w-5 bg-secondaryColor"></span>
+                        <span class="font-Helvetical font-normal text-base leading-7 text-secondaryColor">By Admin</span>
+                    </h4>
+                    <h3 class="font-Helvetical font-extrabold md:text-40xl text-24xl leading-34 md:leading-50 text-primaryColor pt-5">A Comprehensive Guide To The UK's New Immigration Rules</h3>
+                    <p class="font-Helvetical font-normal text-base leading-7 text-secondaryColor pt-5">On 14th March 2024, the UK government unveiled a significant update to its immigration framework, marking a key moment for businesses and individuals across the nation. The Statement of Changes in Immigration Rules spans nearly 300 pages, outlining substantial modifications poised to reshape the process of hiring talent from abroad. These amendments reflect the UK government's strategic shift towards a more dynamic, skill-centric immigration system.</p>
+                    <h4 class="flex items-center gap-2.5 lg:pt-[156px] pt-7">
+                        <span class="font-Helvetical font-normal text-base leading-7 text-secondaryColor">Category: News & Event</span>
+                        <span class="inline-block h-[1px] w-5 bg-secondaryColor"></span>
+                        <span class="font-Helvetical font-normal text-base leading-7 text-secondaryColor">8 Min Read</span>
+                    </h4>
+                </div>
+            </div>
+
+            <div
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-offset="20"
+            data-aos-once="true"
+            class="mt-[70px]">
+                <div class="flex md:flex-row flex-col justify-between gap-[30px]">
+                    <div class="md:w-370 w-full">
+                        <h4 class="font-Helvetical font-bold text-26xl leading-9 text-primaryColor">Overview</h4>
+                        <ul class="mt-5">
+                            <li><a href="#1" class="underline underline-offset-4 font-Helvetical font-normal text-base leading-7 text-primaryColor">1. The New SOC Codes 2020 and Elevated Minimum Salary Thresholds:</a></li>
+                            <li class="pt-2.5"><a href="#2" class="underline underline-offset-4 font-Helvetical font-normal text-base leading-7 text-primaryColor">2. Financial Requirements for Family Visas:</a></li>
+                            <li class="pt-2.5"><a href="#3" class="underline underline-offset-4 font-Helvetical font-normal text-base leading-7 text-primaryColor">3. Liberal Supplementary Duties and Enhanced Business Rights:</a></li>
+                            <li class="pt-2.5"><a href="#4" class="underline underline-offset-4 font-Helvetical font-normal text-base leading-7 text-primaryColor">4. Updated Work Rights for Asylum Seekers:</a></li>
+                            <li class="pt-2.5"><a href="#5" class="underline underline-offset-4 font-Helvetical font-normal text-base leading-7 text-primaryColor">Conclusion</a></li>
+                        </ul>
+                        <h4 class="pt-[30px] font-Helvetical font-bold md:text-26xl text-xl leading-8 md:leading-9 text-primaryColor">Share this Article</h4>
+                        <div class="flex gap-2.5 mt-5">
+
+                            <a href="https://www.facebook.com/" target="_blank"  class="w-11 h-11 flex justify-center items-center group rounded-full bg-cardBg hover:bg-btnBg hover:transition hover:ease-in-out hover:duration-500">
+                                <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.25128 10.1244L9.76483 6.867H6.55475V4.75312C6.55475 3.86212 7.00302 2.99306 8.44082 2.99306H9.9V0.219938C9.9 0.219938 8.57599 0 7.30976 0C4.66637 0 2.93857 1.56038 2.93857 4.38469V6.86756H0V10.125H2.93857V18H6.55475V10.125L9.25128 10.1244Z" fill="#121313"/>
+                                </svg>
+                            </a>
+
+                            <a href="#" target="_blank" class="w-11 h-11 flex justify-center items-center group rounded-full bg-cardBg hover:bg-btnBg hover:transition hover:ease-in-out hover:duration-500">
+                                <svg class="" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.0438858 0L6.99348 9.92807L0 18H1.57395L7.69674 10.9329L12.6438 18H18L10.6594 7.5135L17.1689 0H15.5949L9.95613 6.50866L5.40011 0H0.0438858ZM2.3585 1.2387H4.81916L15.685 16.7611H13.2244L2.3585 1.2387Z" fill="#121313"/>
+                                </svg>
+                            </a>
+
+                            <a href="#" target="_blank" class="w-11 h-11 flex justify-center items-center group rounded-full bg-cardBg hover:bg-btnBg hover:transition hover:ease-in-out hover:duration-500">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.00891 0.0118885C7.14776 0.211298 5.44301 0.883814 3.92203 2.02162C3.42546 2.39306 2.40496 3.41357 2.03351 3.91013C1.01692 5.26689 0.391324 6.71749 0.109806 8.3675C0.00423686 8.97746 -0.0348629 10.385 0.0355167 11.0224C0.215375 12.6958 0.762772 14.209 1.67771 15.5658L1.88102 15.8668L1.25152 17.728C0.907441 18.7524 0.629833 19.593 0.633743 19.5969C0.637653 19.6048 1.48612 19.3389 2.51835 19.0065C3.55058 18.6742 4.43033 18.4005 4.46943 18.4005C4.50853 18.4005 4.63365 18.4552 4.74313 18.5256C5.99432 19.3076 7.44101 19.8003 8.97763 19.9645C9.61495 20.0349 11.0225 19.9958 11.6325 19.8902C13.2825 19.6087 14.737 18.9831 16.0899 17.9665C16.5864 17.595 17.6069 16.5745 17.9784 16.078C19.0106 14.6977 19.6401 13.2159 19.9256 11.4994C20.0272 10.8816 20.0272 9.10649 19.9256 8.48871C19.6401 6.77223 19.0106 5.29035 17.9784 3.91013C17.6069 3.41357 16.5864 2.39306 16.0899 2.02162C14.737 1.00893 13.2903 0.383337 11.6325 0.097908C11.2532 0.0314388 10.96 0.0118885 10.1623 0.00407028C9.61495 -0.00374985 9.09493 0.000160217 9.00891 0.0118885ZM6.85842 4.65303C6.96008 4.69604 7.01873 4.76642 7.10866 4.94628C7.33544 5.39201 8.16826 7.44084 8.16826 7.55032C8.16826 7.73409 8.01577 7.97651 7.63651 8.41051C7.4371 8.63338 7.25333 8.85625 7.22987 8.89535C7.1243 9.09476 7.22596 9.36064 7.61696 9.91585C8.47324 11.1319 9.45073 11.9842 10.6824 12.5746C11.6599 13.0477 11.7811 13.0165 12.4106 12.1445C12.8641 11.515 13.044 11.3665 13.306 11.4251C13.5718 11.4838 15.8514 12.5942 15.9491 12.7154C16.0899 12.8835 15.9648 13.8063 15.738 14.2481C15.4134 14.8893 14.4086 15.4797 13.4936 15.5658C12.5435 15.6596 10.2796 14.8698 8.93853 13.9783C7.58177 13.0751 6.18591 11.5971 5.09893 9.91976C4.55154 9.07521 4.21919 8.09771 4.21919 7.33527C4.21919 6.51418 4.47334 5.8182 5.00118 5.19651C5.2436 4.90327 5.47038 4.74296 5.75581 4.65694C5.98259 4.58265 6.68638 4.58265 6.85842 4.65303Z" fill="#121313"/>
+                                </svg>
+                            </a>
+
+                            <a href="#" target="_blank" class="w-11 h-11 flex justify-center items-center group rounded-full bg-cardBg hover:bg-btnBg hover:transition hover:ease-in-out hover:duration-500">
+                                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.939 0C16.28 0 17.57 0.53 18.519 1.481C19.469 2.43 20 3.71 20 5.05V12.95C20 15.74 17.73 18 14.939 18H5.06C2.269 18 0 15.74 0 12.95V5.05C0 2.26 2.259 0 5.06 0H14.939ZM16.53 6.54L16.61 6.46C16.849 6.17 16.849 5.75 16.599 5.46C16.46 5.311 16.269 5.22 16.07 5.2C15.86 5.189 15.66 5.26 15.509 5.4L11 9C10.42 9.481 9.589 9.481 9 9L4.5 5.4C4.189 5.17 3.759 5.2 3.5 5.47C3.23 5.74 3.2 6.17 3.429 6.47L3.56 6.6L8.11 10.15C8.67 10.59 9.349 10.83 10.06 10.83C10.769 10.83 11.46 10.59 12.019 10.15L16.53 6.54Z" fill="#121313"/>
+                                </svg> 
+                            </a>
+
+                            <a href="#" target="_blank" class="w-11 h-11 flex justify-center items-center group rounded-full bg-cardBg hover:bg-btnBg hover:transition hover:ease-in-out hover:duration-500">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.88475 7.70209L2.73775 8.84959C0.42075 11.1677 0.42075 14.9464 2.73775 17.2645C5.04675 19.5745 8.8317 19.5825 11.1487 17.2645L12.2957 16.1169" stroke="#121313" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16.115 12.298L17.2621 11.1505C19.579 8.8324 19.579 5.05362 17.2621 2.73555C14.9531 0.425486 11.1681 0.417483 8.85113 2.73555L7.7041 3.88308" stroke="#121313" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12.6367 7.45197L7.4043 12.6867" stroke="#121313" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="md:w-770 w-full">
+                        <div id="1">
+                            <h4 class="font-Helvetical font-bold md:text-xl text-lg leading-8 text-primaryColor">1. The New SOC Codes 2020 and Elevated Minimum Salary Thresholds:</h4>
+                            <p class="font-Helvetical font-normal text-base leading-7 text-secondaryColor pt-3.5">At the forefront of these changes is the introduction of new Standard Occupational Classification (SOC) codes for 2020. This reclassification aims to better align with the evolving job market, ensuring that the skills brought into the country are in sync with current economic needs. For businesses seeking to sponsor overseas talent, this update is crucial for harnessing the full spectrum of opportunities. Complementing the SOC codes update, the Skilled Worker Visa has seen a dramatic escalation in salary requirements, with an increase to £38,700. This adjustment extends to other Work Visa categories as well, ensuring that the compensation aligns with the median ONS salary data rather than the 25th percentile. This adjustment aims to attract highly skilled professionals by ensuring that they are compensated according to the UK's economic standards.</p>
+                        </div>
+
+                        <div id="2" class="mt-[30px]">
+                            <h4 class="font-Helvetical font-bold md:text-xl text-lg leading-8 text-primaryColor">2. Financial Requirements for Family Visas:</h4>
+                            <p class="font-Helvetical font-normal text-base leading-7 text-secondaryColor pt-3.5">Begin your journey to mastering task management by creating a comprehensive task list. Include all the tasks, big or small, that you need to accomplish. This list serves as a reference point and ensures that nothing slips through the cracks. Use digital tools or good old-fashioned pen and paper – whatever works best for you.</p>
+                        </div>
+
+                        <div id="3" class="mt-[30px]">
+                            <h4 class="font-Helvetical font-bold md:text-xl text-lg leading-8 text-primaryColor">3. Liberal Supplementary Duties and Enhanced Business Rights:</h4>
+                            <p class="font-Helvetical font-normal text-base leading-7 text-secondaryColor pt-3.5">The regulations surrounding supplementary duties for Skilled Worker Visa holders have been liberalized, allowing these individuals to engage in additional work listed in table 1,2 and 3. This flexibility benefits both the visa holders, by providing a more holistic work experience, and businesses, by leveraging a more versatile workforce. Moreover, the enhanced business rights for Skilled Worker Visa holders mark a significant step towards empowering these individuals with greater autonomy in the business domain. This move fosters innovation and contributes to the UK's economic dynamism.</p>
+                        </div>
+
+                        <div id="4" class="mt-[30px]">
+                            <h4 class="font-Helvetical font-bold md:text-xl text-lg leading-8 text-primaryColor">4. Updated Work Rights for Asylum Seekers:</h4>
+                            <p class="font-Helvetical font-normal text-base leading-7 text-secondaryColor pt-3.5">In a move to integrate Asylum seekers into the societal fabric, updated work rights aim to provide these individuals with a dignified and productive path during their stay in the UK. This approach not only aids in their self-sufficiency but also taps into their potential to contribute to the economy by allowing them to work for the role specified only in the Immigration Salary List. The government seeks to tap into the potential of these individuals, aiding in their self-sufficiency and reducing the dependency on state support. For businesses, staying abreast of these updates is crucial to navigating the new rules effectively and ensuring compliance.</p>
+                        </div>
+
+                        <div id="5" class="mt-[30px]">
+                            <h4 class="font-Helvetical font-bold md:text-xl text-lg leading-8 text-primaryColor">Conclusion:</h4>
+                            <p class="font-Helvetical font-normal text-base leading-7 text-secondaryColor pt-3.5">Mastering the art of task management is a journey rather than a destination. By incorporating these strategies into your daily routine, you'll not only boost your productivity but also pave the way for a more organized and fulfilling life. Remember, it's not about doing more; it's about doing what matters most, efficiently and effectively. Start implementing these techniques today and watch as you take control of your tasks and achieve your goals with newfound confidence.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="border border-[#C9C9C9] mt-[30px]"/>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Area End Here -->
+
+    <!-- Similar Blog Area Start Here -->
+    <section class="lg:mt-[150px] md:mt-20 mt-10">
+        <div
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-offset="20"
+        data-aos-once="true"
+        class="container">
+            <h4 class="flex items-center gap-3 font-Helvetical font-normal md:text-lg text-base leading-7 md:leading-8 text-secondaryColor"><span class="inline-block w-2 h-2 bg-secondaryColor rounded-full"></span>Blog</h4>
+            <div class="flex justify-between items-center md:mt-5 mt-2">
+                <h4 class="w-870 font-Helvetical font-extrabold md:text-60xl text-[34px] leading-44 md:leading-70 text-primaryColor">Read Similar Blog</h4>
+                <div class="lg:w-[227px] w-full lg:block hidden group">
+                    <a href="blog.html" class="font-Helvetical font-bold text-base leading-7 text-primaryColor justify-between flex gap-5 items-center py-2 pl-6 pr-2 rounded-r_100 bg-btnBg">See All Blogs
+                        <div class="bg-textColor w-11 h-11 rounded-full flex items-center justify-center transition ease-in-out duration-500 group-hover:transform group-hover:-translate-x-2 group-hover:transition group-hover:ease-in-out group-hover:duration-500">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.93814 17C8.93814 14.8782 9.78751 12.8434 11.2994 11.3431C12.8113 9.84283 14.8619 9 17 9M17 9C15.9413 9 14.893 8.79305 13.9149 8.39108C12.9368 7.98897 12.048 7.39966 11.2994 6.65686C10.5508 5.91391 9.95697 5.03202 9.55183 4.06143C9.14666 3.09084 8.93814 2.05055 8.93814 1M17 9H1" stroke="#052925" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>  
+                    </a>
+                </div>
+            </div>
+            
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px] md:mt-[70px] mt-7">
+                <div>
+                    <img src="assets/img/blogPage/blog-1.png" alt="">
+                    <div>
+                        <span class="pt-6 font-Helvetical font-normal text-base leading-7 text-secondaryColor block">26 Mar 2024</span>
+                        <hr class="my-3 w-full h-[1px] bg-borderColor"/>
+                        <h4 class="font-Helvetical font-bold md:text-22xl text-xl leading-8 md:leading-32 text-primaryColor">A Comprehensive Guide to the UK's New Immigration Rules</h4>
+                        <p class="pt-3 font-Helvetical font-normal text-base leading-7 text-secondaryColor">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        <a href="blog.html" class="group flex gap-2 items-center mt-6 font-Helvetical font-bold text-base leading-7">
+                            Learn More
+                            <svg class=" transition ease-in-out duration-500 group-hover:transform group-hover:translate-x-2 group-hover:transition group-hover:ease-in-out group-hover:duration-500" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.93814 17C8.93814 14.8782 9.78751 12.8434 11.2994 11.3431C12.8113 9.84283 14.8619 9 17 9M17 9C15.9413 9 14.893 8.79305 13.9149 8.39108C12.9368 7.98897 12.048 7.39966 11.2994 6.65686C10.5508 5.91391 9.95697 5.03202 9.55183 4.06143C9.14666 3.09084 8.93814 2.05055 8.93814 1M17 9H1" stroke="#121313" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/blogPage/blog-3.png" alt="">
+                    <div>
+                        <span class="pt-6 font-Helvetical font-normal text-base leading-7 text-secondaryColor block">26 Mar 2024</span>
+                        <hr class="my-3 w-full h-[1px] bg-borderColor"/>
+                        <h4 class="font-Helvetical font-bold md:text-22xl text-xl leading-8 md:leading-32 text-primaryColor">A Comprehensive Guide to the UK's New Immigration Rules</h4>
+                        <p class="pt-3 font-Helvetical font-normal text-base leading-7 text-secondaryColor">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        <a href="blog.html" class="group flex gap-2 items-center mt-6 font-Helvetical font-bold text-base leading-7">
+                            Learn More
+                            <svg class=" transition ease-in-out duration-500 group-hover:transform group-hover:translate-x-2 group-hover:transition group-hover:ease-in-out group-hover:duration-500" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.93814 17C8.93814 14.8782 9.78751 12.8434 11.2994 11.3431C12.8113 9.84283 14.8619 9 17 9M17 9C15.9413 9 14.893 8.79305 13.9149 8.39108C12.9368 7.98897 12.048 7.39966 11.2994 6.65686C10.5508 5.91391 9.95697 5.03202 9.55183 4.06143C9.14666 3.09084 8.93814 2.05055 8.93814 1M17 9H1" stroke="#121313" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/blogPage/blog-2.png" alt="">
+                    <div>
+                        <span class="pt-6 font-Helvetical font-normal text-base leading-7 text-secondaryColor block">26 Mar 2024</span>
+                        <hr class="my-3 w-full h-[1px] bg-borderColor"/>
+                        <h4 class="font-Helvetical font-bold md:text-22xl text-xl leading-8 md:leading-32 text-primaryColor">A Comprehensive Guide to the UK's New Immigration Rules</h4>
+                        <p class="pt-3 font-Helvetical font-normal text-base leading-7 text-secondaryColor">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        <a href="blog.html" class="flex gap-2 items-center mt-6 font-Helvetical font-bold text-base leading-7 group">
+                            Learn More
+                            <svg class=" transition ease-in-out duration-500 group-hover:transform group-hover:translate-x-2 group-hover:transition group-hover:ease-in-out group-hover:duration-500" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.93814 17C8.93814 14.8782 9.78751 12.8434 11.2994 11.3431C12.8113 9.84283 14.8619 9 17 9M17 9C15.9413 9 14.893 8.79305 13.9149 8.39108C12.9368 7.98897 12.048 7.39966 11.2994 6.65686C10.5508 5.91391 9.95697 5.03202 9.55183 4.06143C9.14666 3.09084 8.93814 2.05055 8.93814 1M17 9H1" stroke="#121313" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-[227px] w-full lg:hidden mx-auto mt-7 group">
+                <a href="blog.html" class="font-Helvetical font-bold text-base leading-7 text-primaryColor justify-between flex gap-5 items-center py-2 pl-6 pr-2 rounded-r_100 bg-btnBg">See All Blogs
+                    <div class="bg-textColor w-11 h-11 rounded-full flex items-center justify-center transition ease-in-out duration-500 group-hover:transform group-hover:-translate-x-2 group-hover:transition group-hover:ease-in-out group-hover:duration-500">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.93814 17C8.93814 14.8782 9.78751 12.8434 11.2994 11.3431C12.8113 9.84283 14.8619 9 17 9M17 9C15.9413 9 14.893 8.79305 13.9149 8.39108C12.9368 7.98897 12.048 7.39966 11.2994 6.65686C10.5508 5.91391 9.95697 5.03202 9.55183 4.06143C9.14666 3.09084 8.93814 2.05055 8.93814 1M17 9H1" stroke="#052925" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>  
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Similar Blog Area End Here -->
+
+    <!-- Footer Area Start Here -->
+    <footer class="bg-bannerBg lg:mt-[150px] md:mt-20 mt-10">
+        <div
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-offset="20"
+        data-aos-once="true"
+        class="container xl:px-0 pt-[70px] pb-9">
+            <div class="flex lg:flex-row flex-col justify-between lg:items-center lg:gap-[162px] gap-7">
+                <div class="lg:w-[445px] w-full">
+                    <h4 class="font-Helvetical font-extrabold text-40xl leading-50 text-white">Subscribe to Our Newsletter</h4>
+                </div>
+                <div class="lg:w-[563px] w-full">
+                    <p class="font-Helvetical font-normal text-base leading-7 text-[#E4E4E4]">Let’s subscribe to get our latest update</p>
+                    <div class="mt-3">
+                        <form>
+                            <div class="flex md:flex-row flex-col justify-between gap-5">
+                                <div class="lg:w-[370px] w-full">
+                                    <input class="rounded-[25px] lg:w-[370px] w-full bg-white bg-opacity-10 focus:outline-none py-3 px-5 font-Helvetical font-normal text-base leading-7 text-[#E4E4E4] placeholder:text-base placeholder:leading-7 placeholder:text-[#E4E4E4]" type="text" placeholder="Enter your email">    
+                                </div>
+                                <div class="md:w-[173px] w-full group">
+                                    <a href="#" class="font-Helvetical font-bold text-base leading-7 text-primaryColor justify-between flex gap-5 items-center py-2 pl-5 pr-2 rounded-r_100 bg-btnBg">Subscribe
+                                        <div class="bg-textColor w-9 h-9 rounded-full flex items-center justify-center transition ease-in-out duration-500 group-hover:transform group-hover:-translate-x-2 group-hover:transition group-hover:ease-in-out group-hover:duration-500">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.93814 17C8.93814 14.8782 9.78751 12.8434 11.2994 11.3431C12.8113 9.84283 14.8619 9 17 9M17 9C15.9413 9 14.893 8.79305 13.9149 8.39108C12.9368 7.98897 12.048 7.39966 11.2994 6.65686C10.5508 5.91391 9.95697 5.03202 9.55183 4.06143C9.14666 3.09084 8.93814 2.05055 8.93814 1M17 9H1" stroke="#052925" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </div>  
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr class="md:my-[70px] my-7 border border-white border-opacity-30"/>
+
+            <div class="flex xl:flex-row lg:flex-col flex-col-reverse flex-wrap justify-between items-start xl:gap-x-[160px] md:gap-x-7"> 
+                <div class="md:w-[328px] w-full lg:mt-0 mt-8">
+                    <a href="index.html">
+                        <img class="md:w-auto w-[120px]" src="assets/img/footer-logo.svg" alt="">
+                    </a>
+                    <p class="pt-[18px] font-Helvetical font-normal md:text-base text-sm leading-6 md:leading-7 text-white">We understand the complexities and challenges that immigrants face when navigating the legal landscape of a new country.</p>
+                    <div class="flex gap-3 mt-9">
+                        <a href="https://www.facebook.com/" target="_blank" class="group">
+                            <svg class="rounded-full bg-white bg-opacity-15 group-hover:bg-btnBg group-hover:transition group-hover:ease-in-out group-hover:duration-500" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path d="M21.4758 18.8746L21.8908 16.341H19.2968V14.6969C19.2968 14.0039 19.659 13.3279 20.8209 13.3279H22V11.1711C22 11.1711 20.9301 11 19.9069 11C17.7708 11 16.3746 12.2136 16.3746 14.4103V16.3414H14V18.875H16.3746V25H19.2968V18.875L21.4758 18.8746Z" fill="white" class="group-hover:fill-primaryColor group-hover:transition group-hover:ease-in-out group-hover:duration-500"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="block group">
+                            <svg class="rounded-full bg-white bg-opacity-15 group-hover:bg-btnBg group-hover:transition group-hover:ease-in-out group-hover:duration-500" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path d="M18.0001 11C16.099 11 15.8606 11.0081 15.114 11.0421C14.3689 11.0761 13.86 11.1945 13.4148 11.3675C12.9544 11.5464 12.5641 11.7857 12.1749 12.1749C11.7857 12.564 11.5464 12.9545 11.3675 13.4148C11.1944 13.86 11.0761 14.3689 11.0421 15.114C11.008 15.8606 11 16.099 11 18.0001C11 19.9012 11.008 20.1396 11.0421 20.8863C11.0761 21.6313 11.1944 22.1402 11.3675 22.5854C11.5464 23.0458 11.7858 23.4361 12.1749 23.8253C12.5641 24.2145 12.9544 24.4539 13.4148 24.6328C13.86 24.8058 14.3689 24.9241 15.114 24.9581C15.8606 24.9922 16.099 25.0002 18.0001 25.0002C19.9012 25.0002 20.1396 24.9922 20.8863 24.9581C21.6313 24.9241 22.1402 24.8058 22.5854 24.6328C23.0458 24.4539 23.4361 24.2145 23.8253 23.8253C24.2145 23.4361 24.4539 23.0458 24.6328 22.5854C24.8058 22.1402 24.9241 21.6313 24.9581 20.8863C24.9922 20.1396 25.0002 19.9012 25.0002 18.0001C25.0002 16.099 24.9922 15.8606 24.9581 15.114C24.9241 14.3689 24.8058 13.86 24.6328 13.4148C24.4539 12.9545 24.2145 12.564 23.8253 12.1749C23.4361 11.7857 23.0458 11.5464 22.5854 11.3675C22.1402 11.1945 21.6313 11.0761 20.8863 11.0421C20.1396 11.0081 19.9012 11 18.0001 11ZM18.0001 12.2613C19.8692 12.2613 20.0906 12.2684 20.8288 12.3021C21.5113 12.3332 21.8819 12.4473 22.1286 12.5431C22.4553 12.6701 22.6885 12.8218 22.9335 13.0667C23.1784 13.3117 23.3301 13.5449 23.4571 13.8716C23.553 14.1183 23.667 14.489 23.6981 15.1715C23.7318 15.9096 23.739 16.131 23.739 18.0001C23.739 19.8692 23.7318 20.0906 23.6981 20.8288C23.667 21.5113 23.553 21.8819 23.4571 22.1286C23.3301 22.4553 23.1784 22.6885 22.9335 22.9335C22.6885 23.1784 22.4553 23.3301 22.1286 23.4571C21.8819 23.553 21.5113 23.667 20.8288 23.6981C20.0907 23.7318 19.8694 23.739 18.0001 23.739C16.1309 23.739 15.9095 23.7318 15.1715 23.6981C14.4889 23.667 14.1183 23.553 13.8717 23.4571C13.5449 23.3301 13.3117 23.1784 13.0668 22.9335C12.8218 22.6885 12.6701 22.4553 12.5431 22.1286C12.4473 21.8819 12.3332 21.5113 12.3021 20.8288C12.2684 20.0906 12.2613 19.8692 12.2613 18.0001C12.2613 16.131 12.2684 15.9096 12.3021 15.1715C12.3332 14.4889 12.4473 14.1183 12.5431 13.8717C12.6701 13.5449 12.8218 13.3117 13.0667 13.0668C13.3117 12.8218 13.5449 12.6701 13.8716 12.5431C14.1183 12.4473 14.489 12.3332 15.1715 12.3021C15.9096 12.2684 16.131 12.2613 18.0001 12.2613" fill="white" class="group-hover:fill-primaryColor group-hover:transition group-hover:ease-in-out group-hover:duration-500"/>
+                                <path d="M18.0004 20.3339C16.7117 20.3339 15.667 19.2892 15.667 18.0006C15.667 16.7118 16.7117 15.6672 18.0004 15.6672C19.2891 15.6672 20.3338 16.7118 20.3338 18.0006C20.3338 19.2892 19.2891 20.3339 18.0004 20.3339ZM18.0004 14.4059C16.0151 14.4059 14.4058 16.0152 14.4058 18.0006C14.4058 19.9858 16.0151 21.5952 18.0004 21.5952C19.9857 21.5952 21.5951 19.9858 21.5951 18.0006C21.5951 16.0152 19.9857 14.4059 18.0004 14.4059ZM22.5771 14.2639C22.5771 14.7278 22.201 15.1039 21.7371 15.1039C21.2732 15.1039 20.8971 14.7278 20.8971 14.2639C20.8971 13.7999 21.2732 13.4238 21.7371 13.4238C22.201 13.4238 22.5771 13.7999 22.5771 14.2639Z" fill="white" class="group-hover:fill-primaryColor group-hover:transition group-hover:ease-in-out group-hover:duration-500"/>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="block group">
+                            <svg class="rounded-full bg-white bg-opacity-15 group-hover:bg-btnBg group-hover:transition group-hover:ease-in-out group-hover:duration-500" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path d="M25 13.4205C24.4758 13.6655 23.9197 13.8263 23.3503 13.8975C23.9434 13.5226 24.3988 12.9289 24.6132 12.2215C24.0494 12.5744 23.4326 12.823 22.7893 12.9567C22.2654 12.3679 21.5189 12 20.6928 12C19.1065 12 17.8204 13.3564 17.8204 15.0293C17.8204 15.2668 17.8458 15.498 17.8948 15.7198C15.5077 15.5934 13.3913 14.3874 11.9746 12.5545C11.7274 13.002 11.5858 13.5224 11.5858 14.0775C11.5858 15.1285 12.0929 16.0557 12.8635 16.599C12.4074 16.584 11.9613 16.454 11.5625 16.2201C11.5624 16.2328 11.5624 16.2454 11.5624 16.2582C11.5624 17.726 12.5524 18.9504 13.8663 19.2287C13.4434 19.35 12.9997 19.3678 12.5693 19.2806C12.9347 20.4841 13.9955 21.3599 15.2523 21.3845C14.2693 22.1969 13.0308 22.6813 11.6852 22.6813C11.4533 22.6813 11.2247 22.6669 11 22.6389C12.2711 23.4985 13.7809 24 15.4029 24C20.6861 24 23.5751 19.3838 23.5751 15.3807C23.5751 15.2493 23.5723 15.1186 23.5668 14.9887C24.1291 14.56 24.6144 14.0289 25 13.4205Z" fill="white" class="group-hover:fill-primaryColor group-hover:transition group-hover:ease-in-out group-hover:duration-500"/>
+                            </svg>
+                            
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" class="block group">
+                            <svg class="rounded-full bg-white bg-opacity-15 group-hover:bg-btnBg group-hover:transition group-hover:ease-in-out group-hover:duration-500" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2003 15.8783H18.8001V17.1733C19.1746 16.4285 20.135 15.7593 21.5777 15.7593C24.3434 15.7593 25 17.2419 25 19.9621V25H22.2V20.5816C22.2 19.0325 21.8255 18.1589 20.8721 18.1589C19.5498 18.1589 19.0003 19.1004 19.0003 20.5809V25H16.2003V15.8783ZM11.399 24.881H14.199V15.7593H11.399V24.881ZM14.6001 12.785C14.6002 13.0197 14.5537 13.2521 14.4632 13.4686C14.3727 13.6852 14.2401 13.8816 14.073 14.0464C13.7345 14.3828 13.2763 14.5712 12.799 14.57C12.3226 14.5697 11.8654 14.3818 11.5264 14.0471C11.3599 13.8817 11.2278 13.6851 11.1374 13.4685C11.0471 13.2519 11.0004 13.0197 11 12.785C11 12.3111 11.189 11.8575 11.5271 11.5229C11.8658 11.1877 12.3232 10.9998 12.7997 11C13.2771 11 13.7349 11.1883 14.073 11.5229C14.4104 11.8575 14.6001 12.3111 14.6001 12.785Z" fill="white" class="group-hover:fill-primaryColor group-hover:transition group-hover:ease-in-out group-hover:duration-500"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="xl:w-[682px] w-full flex md:flex-row flex-col justify-between xl:gap-[90px] md:gap-20 gap-7 xl:mt-0 lg:mt-8">
+                    <div class="lg:w-[300px] w-full">
+                        <h4 class="font-Helvetical font-semibold text-xl leading-8 text-white">Quick Links</h4>
+                        <ul class="mt-8">
+                            <li><a href="index.html" class="font-Helvetical font-normal text-base leading-7 text-[#E4E4E4] hover:text-white hover:transition hover:ease-in-out hover:duration-500">Home</a></li>
+                            <li class="pt-4"><a href="about.html" class="font-Helvetical font-normal text-base leading-7 text-[#E4E4E4] hover:text-white hover:transition hover:ease-in-out hover:duration-500">About Us</a></li>
+                            <li class="pt-4"><a href="services.html" class="font-Helvetical font-normal text-base leading-7 text-[#E4E4E4] hover:text-white hover:transition hover:ease-in-out hover:duration-500">Services</a></li>
+                            <li class="pt-4"><a href="team.html" class="font-Helvetical font-normal text-base leading-7 text-[#E4E4E4] hover:text-white hover:transition hover:ease-in-out hover:duration-500">Team</a></li>
+                            <li class="pt-4"><a href="pricing.html" class="font-Helvetical font-normal text-base leading-7 text-[#E4E4E4] hover:text-white hover:transition hover:ease-in-out hover:duration-500">Pricing</a></li>
+                            <li class="pt-4"><a href="blog.html" class="font-Helvetical font-normal text-base leading-7 text-[#E4E4E4] hover:text-white hover:transition hover:ease-in-out hover:duration-500">Blog</a></li>
+                            <li class="pt-4"><a href="contact.html" class="font-Helvetical font-normal text-base leading-7 text-[#E4E4E4] hover:text-white hover:transition hover:ease-in-out hover:duration-500">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="lg:w-[400px] w-full">
+                        <h4 class="font-Helvetical font-semibold text-xl leading-8 text-white">Company</h4>
+                        <ul class="mt-8">
+                            <li><a href="#" class="font-Helvetical font-normal text-base leading-7 text-[#E4E4E4] hover:text-white hover:transition hover:ease-in-out hover:duration-500">Terms & Conditions</a></li>
+                            <li class="pt-4"><a href="#" class="font-Helvetical font-normal text-base leading-7 text-[#E4E4E4] hover:text-white hover:transition hover:ease-in-out hover:duration-500">Privacy Policy</a></li>
+                            <li class="pt-4"><a href="#" class="font-Helvetical font-normal text-base leading-7 text-[#E4E4E4] hover:text-white hover:transition hover:ease-in-out hover:duration-500">Cookie Preferences </a></li>
+                        </ul>
+                    </div>
+                    <div class="xl:w-[300px] w-full">
+                        <h4 class="font-Helvetical font-semibold text-xl leading-8 text-white">Location</h4>
+                        <ul class="mt-8">
+                            <li class=""><a href="#" class="font-Helvetical font-normal text-base leading-7 text-[#E4E4E4]">(+44) 020 8087 2343</a></li>
+                            <li class="pt-4"><a href="#" class="font-Helvetical font-normal text-base leading-7 text-[#E4E4E4]">info@demoworkpermit.com</a></li>
+                            <li class="pt-4"><a href="#" class="font-Helvetical font-normal text-base leading-7 text-[#E4E4E4]">123 Lorem Ipsum Legal Street, London, UK, SW1A 1AA</a></li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+
+            <hr class="md:mt-[70px] mt-7 border border-white border-opacity-30"/>
+
+            <p class="text-center pt-[30px] font-Helvetical font-normal text-base leading-7 text-[#E4E4E4]">&copy; 2024 Company All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- Footer Area End Here -->
+
+    <script src="assets/js/alpine.min.js" defer></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/aos_script.js"></script>
+</body>
+</html>

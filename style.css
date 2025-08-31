@@ -1,0 +1,115 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* custom font setup */
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url('/assets/fonts/HelveticaNowDisplay-Regular.ttf') format('OpenType');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url('/assets/fonts/HelveticaNowDisplay-Medium.ttf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url('/assets/fonts/HelveticaNowDisplay-Bold.ttf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+} 
+@font-face {
+    font-family: 'Helvetica Now Display';
+    src: url('/assets/fonts/HelveticaNowDisplay-ExtraBold.ttf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  } 
+
+
+/* CountUp */
+
+@property --num-users {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+
+  @property --num-percent {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  @keyframes counter {
+    from {
+        --num-users: 0;
+        --num-percent:0;
+    }
+    to {
+        --num-users: 10;
+        --num-percent:98;
+    }
+  }
+
+
+
+  .swiper-pagination-bullet-active {
+    background: #121313 !important;
+}
+
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+/* First swiper's pagination style */
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: white !important;
+  opacity: 0.3 !important;
+  height: 4px !important;
+  width: 50px !important;
+  border-radius: 4px !important;
+}
+
+
+.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+  width: auto !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background-color: white !important;
+}
+
+/* First swiper's pagination style */
+.swiper-paginations .swiper-pagination-bullet {
+  background-color: white !important;
+  opacity: 0.3 !important;
+  height: 4px !important;
+  width: 50px !important;
+  border-radius: 4px !important;
+}
+
+
+.swiper-paginations.swiper-pagination-bullets.swiper-pagination-horizontal {
+  width: auto !important;
+}
+
+.swiper-paginations .swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background-color: white !important;
+}
